@@ -1,0 +1,206 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PinkyCraft - The Sweetest SMP</title>
+    <meta name="description" content="PinkyCraft launcher download and SMP website." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="loader" id="loader">
+      <img src="logo.png" alt="PinkyCraft" />
+      <p>Loading PinkyCraft...</p>
+    </div>
+
+    <video class="bg-video" autoplay muted loop playsinline>
+      <source src="hero-smp.mp4" type="video/mp4" />
+    </video>
+    <div class="bg-layer"></div>
+    <div class="grain"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#top">
+        <span class="logo-dot"><img src="logo.png" alt="PinkyCraft Logo" /></span>
+        <span>
+          <strong>PinkyCraft</strong>
+          <small>SWEETEST SMP</small>
+        </span>
+      </a>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#faq">FAQ</a>
+        <a href="#download">Download</a>
+      </nav>
+      <div class="top-actions">
+        <span class="online-pill"><i></i>127 Online</span>
+        <a class="discord-pill" href="https://discord.gg" target="_blank" rel="noreferrer">Discord</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero-wrap">
+        <div class="hero-left">
+          <p class="live-pill"><i></i>SEASON 2 • NOW LIVE</p>
+          <h1>The <span>sweetest</span> Minecraft SMP</h1>
+          <p class="lead">
+            100% cozy, grief-free survival with protected claims, a sweet economy and the cutest
+            community. One click and you're in.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary download-link" href="#">⬇ Download PinkyClient</a>
+            <button class="btn btn-secondary" id="openLauncher" type="button">❓ What's PinkyClient?</button>
+          </div>
+          <div class="server-row">
+            <span>Server IP:</span>
+            <strong id="serverIp">play.pinkycraft.com</strong>
+            <button id="copyBtn" type="button">Copy</button>
+          </div>
+          <div class="stats">
+            <article><h3>1,000+</h3><p>Players</p></article>
+            <article><h3>1,500+</h3><p>Discord</p></article>
+            <article><h3>250+</h3><p>Daily</p></article>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <div class="card-head">
+            <div class="dots"><i></i><i></i><i></i></div>
+            <small>PinkyCraft • Season 2</small>
+          </div>
+          <div class="card-image">
+            <video class="card-video" autoplay muted loop playsinline>
+              <source src="hero-smp.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <span class="tag">In-game footage</span>
+          <div class="feature-grid">
+            <article><h4>No Grief</h4><p>Protected claims</p></article>
+            <article><h4>Economy</h4><p>Market & jobs</p></article>
+            <article><h4>Events</h4><p>Weekly contests</p></article>
+          </div>
+        </aside>
+      </section>
+
+      <section class="block" id="features">
+        <p class="kicker">Why PinkyCraft?</p>
+        <h2>Fully protected, cozy & balanced SMP</h2>
+        <p class="section-lead">
+          Chill survival, cute towns, sweet economy and community events. No drama, no grief - just
+          comfy Minecraft.
+        </p>
+        <div class="cards cards-4">
+          <article>
+            <h3>Zero-toxic Community</h3>
+            <p>Active moderation and clear rules keep everything cozy and safe.</p>
+          </article>
+          <article>
+            <h3>Protected Claims</h3>
+            <p>Advanced claim system keeps your builds safe at all times.</p>
+          </article>
+          <article>
+            <h3>Sweet Economy</h3>
+            <p>Jobs, player shops and a balanced market for fair progression.</p>
+          </article>
+          <article>
+            <h3>Events & Seasons</h3>
+            <p>Build contests, mini-game nights and exclusive seasonal content.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="block" id="gallery">
+        <p class="kicker">Gallery</p>
+        <h2>Glimpses from the server</h2>
+        <p class="section-lead">
+          Take a peek at spawn, the market and the event island before building your own cozy base.
+        </p>
+        <div class="cards cards-3 gallery">
+          <article>
+            <div class="gallery-media"><img src="gallery-1.jpg" alt="Spawn hub" /></div>
+            <h3>Spawn Hub</h3>
+            <p>Central hub with portals, meeting spots and cute little shops.</p>
+          </article>
+          <article>
+            <div class="gallery-media"><img src="gallery-2.jpg" alt="Market district" /></div>
+            <h3>Market District</h3>
+            <p>Player shops and server market in one cozy trading district.</p>
+          </article>
+          <article>
+            <div class="gallery-media"><img src="gallery-3.jpg" alt="Event island" /></div>
+            <h3>Event Island</h3>
+            <p>Special island for build contests and community mini-games.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="block" id="faq">
+        <p class="kicker">FAQ</p>
+        <h2>Everything you need to know</h2>
+        <p class="section-lead">Quick answers about connecting, rules and the PinkyClient launcher.</p>
+        <div class="faq-list">
+          <details open>
+            <summary>How do I join the server?</summary>
+            <p>Use your official Minecraft Java account and connect to play.pinkycraft.com.</p>
+          </details>
+          <details>
+            <summary>What is PinkyClient? Is it required?</summary>
+            <p>
+              PinkyClient is a lightweight launcher with one-click join and auto updates. Optional but
+              strongly recommended.
+            </p>
+          </details>
+          <details>
+            <summary>What are the main rules?</summary>
+            <p>Be kind and respectful. Griefing, stealing, hacking and toxic behavior are forbidden.</p>
+          </details>
+          <details>
+            <summary>Which version? Is it modded?</summary>
+            <p>Latest stable Java Edition with cozy QoL plugins and optional client-side mods.</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="block download" id="download">
+        <p class="kicker">Ready to play?</p>
+        <h2>Download PinkyClient & Join</h2>
+        <p class="section-lead">One click. Auto-updates. Optimized mods. The sweetest way to join.</p>
+        <a class="btn btn-primary big download-link" href="#">⬇ Download for Windows</a>
+        <p class="foot-note">Windows only • macOS & Linux coming soon</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 PinkyCraft SMP. All rights reserved.</p>
+      <p>Not affiliated with Mojang Studios. Minecraft is a trademark of Mojang Studios.</p>
+      <div class="socials">
+        <a href="https://discord.gg" target="_blank" rel="noreferrer">Discord</a>
+        <a href="https://twitter.com" target="_blank" rel="noreferrer">Twitter</a>
+      </div>
+    </footer>
+
+    <div class="modal" id="launcherModal" aria-hidden="true">
+      <div class="modal-card">
+        <button class="close" id="closeLauncher" type="button">×</button>
+        <h3>PinkyClient Launcher</h3>
+        <p>One-click join, optimized performance</p>
+        <img class="modal-media" src="gallery-2.jpg" alt="PinkyClient showcase" />
+        <ul>
+          <li><strong>One-click Join:</strong> Just press Play.</li>
+          <li><strong>Optimized Pack:</strong> FPS mods, minimap and cosmetics.</li>
+          <li><strong>Auto Updates:</strong> Always up-to-date, zero manual setup.</li>
+        </ul>
+        <a class="btn btn-primary download-link" href="#">⬇ Download for Windows</a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
