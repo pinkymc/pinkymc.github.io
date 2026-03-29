@@ -6,8 +6,8 @@ const closeLauncher = document.getElementById("closeLauncher");
 const launcherModal = document.getElementById("launcherModal");
 const downloadLinks = document.querySelectorAll(".download-link");
 
-// Yeni indirme linkin buraya eklendi:
-const GAME_FILE_URL = "https://cdn.discordapp.com/attachments/1188625299559153685/1487609002526511164/PinkyClient.zip?ex=69c9c358&is=69c871d8&hm=7e6affa6a92b7040c3f09ee7f4784c5fa7f74b39ee5a1906b14310001af1ffcd&";
+// Put your installer/archive file in: /game/PinkyClient.zip
+const GAME_FILE_URL = "game/PinkyClient.zip";
 const GAME_FILE_NAME = "PinkyClient.zip";
 
 window.addEventListener("load", () => {
