@@ -7,7 +7,7 @@ const launcherModal = document.getElementById("launcherModal");
 const downloadLinks = document.querySelectorAll(".download-link");
 
 // Put your installer/archive file in: /game/PinkyClient.zip
-const GAME_FILE_URL = "game/PinkyClient.zip";
+const GAME_FILE_URL = "https://download1326.mediafire.com/l6hzuah4vbcgy3LwsRueP2eDgEcX9VFWpuCI5WPakUluGYZ-84zCsP6FYfdY8VirtPtjr7kjYK86ymRy5m0Gi5HjSG3uVKYR4ceZ7ed3VNojDGQldEQDchHleygos2H9r1zFINV5uRVwyfV62bND_4uKES2Cyc3NEtJjHQfpBxLYZQ/3lvrlhm1d22os4n/PinkyClient.zip";
 const GAME_FILE_NAME = "PinkyClient.zip";
 
 window.addEventListener("load", () => {
