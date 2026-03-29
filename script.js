@@ -1,4 +1,4 @@
-﻿const copyBtn = document.getElementById("copyBtn");
+const copyBtn = document.getElementById("copyBtn");
 const serverIp = document.getElementById("serverIp");
 const loader = document.getElementById("loader");
 const openLauncher = document.getElementById("openLauncher");
@@ -6,8 +6,8 @@ const closeLauncher = document.getElementById("closeLauncher");
 const launcherModal = document.getElementById("launcherModal");
 const downloadLinks = document.querySelectorAll(".download-link");
 
-// Put your installer/archive file in: /game/PinkyClient.zip
-const GAME_FILE_URL = "https://download1326.mediafire.com/l6hzuah4vbcgy3LwsRueP2eDgEcX9VFWpuCI5WPakUluGYZ-84zCsP6FYfdY8VirtPtjr7kjYK86ymRy5m0Gi5HjSG3uVKYR4ceZ7ed3VNojDGQldEQDchHleygos2H9r1zFINV5uRVwyfV62bND_4uKES2Cyc3NEtJjHQfpBxLYZQ/3lvrlhm1d22os4n/PinkyClient.zip";
+// Yeni indirme linkin buraya eklendi:
+const GAME_FILE_URL = "https://cdn.discordapp.com/attachments/1188625299559153685/1487609002526511164/PinkyClient.zip?ex=69c9c358&is=69c871d8&hm=7e6affa6a92b7040c3f09ee7f4784c5fa7f74b39ee5a1906b14310001af1ffcd&";
 const GAME_FILE_NAME = "PinkyClient.zip";
 
 window.addEventListener("load", () => {
